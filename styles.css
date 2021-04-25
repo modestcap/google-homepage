@@ -15,8 +15,8 @@
     border: 0.1rem solid;
     border-color: hsla(0, 0%, 50%, 0.25 );
     border-radius: 2em;
-    padding: 0.25em;
-    width: 600px;
+    padding: 0.25em 0.5em;
+    width: 450px;
     height: 2rem;
 
 }
@@ -24,16 +24,16 @@
     box-shadow: 0rem 1px 0.1em hsla(0, 0%, 50%, 0.5 );
 }
 
-
-
 .srchbtns {
     display: flex;
     flex-direction: row;
     gap: 1rem;
 
 }
+
 .srchbtn {
-    border-style: none;
+    border: 0.1rem solid;
+    border-color: white;
     padding: 0.2em;
     color: hsla(0, 0%, 25%, 0.75 );
     padding: 0.5rem 1rem;
