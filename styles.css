@@ -1,0 +1,60 @@
+.mainelements {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items:center;
+    gap: 2rem;
+}
+.searchbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border: 0.1rem solid;
+    border-color: hsla(0, 0%, 50%, 0.25 );
+    border-radius: 2em;
+    padding: 0.25em;
+    width: 600px;
+    height: 2rem;
+
+}
+.searchbox:hover {
+    box-shadow: 0rem 1px 0.1em hsla(0, 0%, 50%, 0.5 );
+}
+
+
+
+.srchbtns {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+}
+.srchbtn {
+    border-style: none;
+    padding: 0.2em;
+    color: hsla(0, 0%, 25%, 0.75 );
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+}
+.srchbtn:hover {
+    border: 0.1rem solid;
+    border-radius: 0.5rem;
+    border-color:  hsla(0, 0%, 50%, 0.50 );;
+    
+}
+i {
+    color: hsla(0, 0%, 50%, 0.75 );
+    font-size: 0.5rem;
+}
+i:focus {
+    appearance: none;
+    border-style: none;
+}
+
+input {
+    width: 100%;
+    border-style: none; 
+}
