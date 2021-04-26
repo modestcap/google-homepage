@@ -1,5 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: 'Roboto';
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+a {
+    color: hsla(0, 0%, 25%, 0.9);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.lefthdr {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+.righthdr {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+
+}
+.signin {
+    border-style: none;
+    background-color: hsl(217, 89%, 61%);
+    color: white;
+    font-size: 0.8em;
+    font-weight: 900;
+    padding: 0.5rem 1rem;
+    border-radius: 0.1rem;
+}
 .mainelements {
-    height: 50vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,7 +82,7 @@
 .srchbtn:hover {
     border: 0.1rem solid;
     border-radius: 0.5rem;
-    border-color:  hsla(0, 0%, 50%, 0.50 );;
+    border-color:  hsla(0, 0%, 50%, 0.50 );
     
 }
 i {
@@ -57,4 +97,31 @@ i:focus {
 input {
     width: 100%;
     border-style: none; 
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 98.5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5em;
+    border: 0.1rem solid;
+    border-color:  hsla(0, 0%, 75%, 0.50 );
+}
+
+.leftftr {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.rightftr {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 2rem;
 }
